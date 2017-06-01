@@ -7,7 +7,7 @@ When you make `qstat -f <JobID>`, among many other things, the following is prin
 ```
 Job Id: 4507181.cx1b
     Job_Name = calcite_I_FREQC
-    Job_Owner = dcarrasc@login-3-internal.cx1.hpc.ic.ac.uk
+    Job_Owner = username@login-3-internal.cx1.hpc.ic.ac.uk
     resources_used.cpupercent = 9
     resources_used.cput = 00:00:03
     resources_used.mem = 21308kb
@@ -17,7 +17,7 @@ Job Id: 4507181.cx1b
 
 ...
 
-    Output_Path = login-3-internal.cx1.hpc.ic.ac.uk:/work/dcarrasc/BS-A/structu
+    Output_Path = login-3-internal.cx1.hpc.ic.ac.uk:/work/username/BS-A/structu
 	res_CRY14/Calcite_I/DISPERSI/lower_volumes_form_EOS_0.87_0.98_V_eq/110.
 	485887/FREQCALC_on_SUPERCELL_Landau_SHRINK_6_6/SCANMODE_1__-20_20_0.4/4
 	_displacement/CVOLOPT/Findsym/FREQCALC/calcite_I_FREQC.o4507181
