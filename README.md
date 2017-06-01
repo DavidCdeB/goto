@@ -2,7 +2,7 @@
 
 In an HPC compuer, if we wnat to check the progress of a run, we do: `qstat -u $USER`
 
-When you make `qstat -f <JobID>`, among many other things, the following is printed:
+When you make `qstat -f <JobID>`, among many other things, the following is printed in the terminal window:
 
 ```
 Job Id: 4507181.cx1b
@@ -21,6 +21,8 @@ Job Id: 4507181.cx1b
 	res_CRY14/Calcite_I/DISPERSI/lower_volumes_form_EOS_0.87_0.98_V_eq/110.
 	485887/FREQCALC_on_SUPERCELL_Landau_SHRINK_6_6/SCANMODE_1__-20_20_0.4/4
 	_displacement/CVOLOPT/Findsym/FREQCALC/calcite_I_FREQC.o4507181
+
+...
 
 ```
 For the moment, the only way of `cd` to the directory is by copying and pasting the 4 lines on `Output_Path` onto the command line, and "glue" all these 4 lines together.
