@@ -44,7 +44,6 @@ It would be very useful to type `name_of_function <JobID>` and directly change d
 
 Type `goto <JobID>` and you will be directly redirected to the directory where the job is running or about to finish.
 
-# Fell free to 
 
 # Contributing
 
@@ -54,8 +53,8 @@ All contributions to improve this function or creating a more general script tha
 * If you are familiar with `git`: fork this repository and submit a pull request.
 * If you are not familiar with `git`: 
 
-** If something should be improved, open an issue here on GitHub
-** If you think a new feature would be nice, open an issue
-** If you need a feature for your project (i.e. within a certain time frame), contact the maintainer directly to discuss whether it can be implemented time.
+    * If something should be improved, open an issue here on GitHub
+    * If you think a new feature would be nice, open an issue
+    * If you need a feature for your project (i.e. within a certain time frame), contact the maintainer directly to discuss whether it can be implemented time.
   Then we'll open an issue.
 
