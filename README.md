@@ -1,6 +1,6 @@
-# Statement of the problem
+# 1. Statement of the problem
 
-In an HPC compuer, if we wnat to check the progress of a run, we do: `qstat -u $USER`
+In an HPC compuer, if we want to check the progress of a run, we do: `qstat -u $USER`
 
 When you make `qstat -f <JobID>`, among many other things, the following is printed in the terminal window:
 
@@ -31,21 +31,21 @@ This is often a waste of time.
 
 It would be very useful to type `name_of_function <JobID>` and directly change directory where the job is running or about to finish.
 
-# What is the function `goto`
+# 2. What is the function `goto` ?
 
 `goto` is a function that allows to change to the directory where the job is running.
 
-# Installation
+# 3. Installation
 
 * Add the lines of the function `goto` at the end of the `~/.bashrc` or `~/.profile`.
 * Do `. ~/.bashrc` or `. ~/.profile` respectively.
 
-# Usage
+# 4. Usage
 
 Type `goto <JobID>` and you will be directly redirected to the directory where the job is running or about to finish.
 
 
-# Contributing
+# 5. Contributing
 
 All contributions to improve this function or creating a more general script that would include more things for checking the status of the runs are very welcome.
 
@@ -55,6 +55,6 @@ All contributions to improve this function or creating a more general script tha
 
     * If something should be improved, open an issue here on GitHub
     * If you think a new feature would be nice, open an issue
-    * If you need a feature for your project (i.e. within a certain time frame), contact the maintainer directly to discuss whether it can be implemented time.
-  Then we'll open an issue.
+    * If you need a feature for your project contact me directly.
+  
 
